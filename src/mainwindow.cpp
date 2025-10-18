@@ -374,7 +374,11 @@ void MainWindow::updateGpuTemp() {
 }
 
 void MainWindow::updateFan1Speed() {
-    ui->fan1ValueLabel->setText(intToQString(operate.getFan1Speed()) + " " + tr("rpm"));
+    int speed = operate.getFan1Speed();
+    if (speed != 0)
+        ui->fan1ValueLabel->setText(intToQString(speed) + " " + tr("rpm"));
+    else
+        ui->fan1ValueLabel->setText(tr("OFF"));
 }
 
 void MainWindow::updateFan2Speed() {
