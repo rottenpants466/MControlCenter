@@ -279,7 +279,7 @@
         <source>The msi-ec module is not loaded/installed.
 Check the &lt;About&gt; page for more info.</source>
         <translation>O módulo msi-ec não está carregado/instalado.
-Verifique a página &lt;Acerca de&gt; para mais informações.</translation>
+Consulte a página &lt;Acerca de&gt; para mais informações.</translation>
     </message>
     <message>
         <source>The ec_sys module couldn&apos;t be detected, it might be required to control the fans.</source>
