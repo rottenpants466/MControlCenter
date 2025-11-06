@@ -291,7 +291,7 @@ Check the &lt;About&gt; page for more info.</source>
     </message>
     <message>
         <source>Fallback: Only ec_sys is loaded</source>
-        <translation>Recuo: Só está carregado o ec_sys</translation>
+        <translation>Alternativo: Só está carregado o ec_sys</translation>
     </message>
     <message>
         <source>Failed to load both msi-ec/ec_sys</source>
